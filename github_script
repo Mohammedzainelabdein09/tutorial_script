@@ -1,0 +1,5 @@
+#!/bin/bash 
+touch change_owner
+git add .
+git commit -m "git push"
+git push
