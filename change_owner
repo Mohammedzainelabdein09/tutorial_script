@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "input file name "
+
+read "fileanme"
+
+echo "#!/bin/bash" > ${filename}
+
+git add .
+git commit -m "input commit"
+git push
